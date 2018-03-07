@@ -156,7 +156,7 @@
      * we've declared for you above.)
      * And be sure to use the functions declared below!
      */
-      e.preventDefault();
+      
       
        var pos = e.which;
        if(pos === LEFT_ARROW){
@@ -167,9 +167,9 @@
          moveDodgerRight();
          
        } else{
-         e.stopPropagation();
+         e.preventDefault();
        }
-       
+       e.stopPropagation();
      }
   
   function moveDodgerLeft() {
