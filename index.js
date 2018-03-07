@@ -171,7 +171,7 @@
          moveDodgerRight();
          
        } else{
-         return false;
+         null;
        }
      }
   
