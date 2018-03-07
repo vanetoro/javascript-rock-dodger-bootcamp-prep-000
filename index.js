@@ -171,6 +171,7 @@
          moveDodgerRight();
          stopP;
        } else{
+         console.log(pos);
          prevent;
          stopP;
          
