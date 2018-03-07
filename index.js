@@ -156,17 +156,20 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
-    e.preventDefault();
+    var prevent = e.preventDefault();
+    var stop = e.stopPropagation();
      var pos = e.which;
      if(pos === LEFT_ARROW){
-       
+       prevent;
        moveDodgerLeft();
+       stop;
      } else
      if (pos === RIGHT_ARROW){
-       
+       prevent;
        moveDodgerRight();
+       stop;
      }
-     e.stopPropagation();
+     
    }
 
 function moveDodgerLeft() {
