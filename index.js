@@ -156,8 +156,8 @@
      * we've declared for you above.)
      * And be sure to use the functions declared below!
      */
-      var prevent = e.preventDefault();
-      var stopP = e.stopPropagation();
+      e.preventDefault();
+      e.stopPropagation();
        var pos = e.which;
        if(pos === LEFT_ARROW){
          console.log('left')
