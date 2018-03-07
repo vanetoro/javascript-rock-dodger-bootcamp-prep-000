@@ -167,9 +167,9 @@
          moveDodgerRight();
          
        } else{
-         null;
+         e.stopPropagation();
        }
-       e.stopPropagation();
+       
      }
   
   function moveDodgerLeft() {
