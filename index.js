@@ -172,8 +172,8 @@
          
        } else{
          console.log(pos);
-         prevent;
-         stopP;
+         
+         
          
        }
      }
