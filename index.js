@@ -162,6 +162,7 @@ function moveDodger(e) {
        moveDodgerLeft();
      } else
      if (pos === RIGHT_ARROW){
+       event.preventDefault();
        moveDodgerRight();
      }
    }
