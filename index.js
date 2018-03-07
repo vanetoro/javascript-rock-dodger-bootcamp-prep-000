@@ -170,6 +170,10 @@
          prevent;
          moveDodgerRight();
          stopP;
+       } else{
+         prevent;
+         stopP;
+         
        }
      }
   
