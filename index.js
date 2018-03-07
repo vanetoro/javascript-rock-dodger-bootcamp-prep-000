@@ -160,11 +160,13 @@ function moveDodger(e) {
     var stopP = e.stopPropagation();
      var pos = e.which;
      if(pos === LEFT_ARROW){
+       console.log('left')
        prevent;
        moveDodgerLeft();
        stopP;
      } else
      if (pos === RIGHT_ARROW){
+       console.log('right')
        prevent;
        moveDodgerRight();
        stopP;
