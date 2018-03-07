@@ -158,11 +158,11 @@ function moveDodger(e) {
    */
      var pos = e.which;
      if(pos === LEFT_ARROW){
-       pos.preventDefault();
+       e.preventDefault();
        moveDodgerLeft();
      } else
      if (pos === RIGHT_ARROW){
-       event.preventDefault();
+       e.preventDefault();
        moveDodgerRight();
      }
    }
