@@ -162,16 +162,16 @@
        if(pos === LEFT_ARROW){
          e.preventDefault();
          moveDodgerLeft();
-         
+         e.stopPropagation();
        } else
        if (pos === RIGHT_ARROW){
          e.preventDefault();
          moveDodgerRight();
-         
+         e.stopPropagation();
        } else{
          null;
        }
-       e.stopPropagation();
+       
      }
   
   function moveDodgerLeft() {
