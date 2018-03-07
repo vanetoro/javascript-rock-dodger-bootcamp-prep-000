@@ -170,12 +170,7 @@
          
          moveDodgerRight();
          
-       } else{
-         console.log(pos);
-         
-         
-         
-       }
+       } 
      }
   
   function moveDodgerLeft() {
