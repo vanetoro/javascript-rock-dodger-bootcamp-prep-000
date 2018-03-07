@@ -162,8 +162,9 @@
        if(pos === LEFT_ARROW){
          console.log('left')
          prevent;
-         moveDodgerLeft();
          stopP;
+         moveDodgerLeft();
+         
        } else
        if (pos === RIGHT_ARROW){
          console.log('right')
