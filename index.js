@@ -157,22 +157,19 @@
      * And be sure to use the functions declared below!
      */
       e.preventDefault();
-      e.stopPropagation();
+      
        var pos = e.which;
        if(pos === LEFT_ARROW){
-         console.log('left')
-         
          moveDodgerLeft();
          
        } else
        if (pos === RIGHT_ARROW){
-         console.log('right')
-         
          moveDodgerRight();
          
        } else{
          null;
        }
+       e.stopPropagation();
      }
   
   function moveDodgerLeft() {
