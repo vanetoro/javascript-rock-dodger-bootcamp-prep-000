@@ -170,7 +170,9 @@
          
          moveDodgerRight();
          
-       } 
+       } else{
+         return false;
+       }
      }
   
   function moveDodgerLeft() {
