@@ -169,7 +169,6 @@ function moveDodger(e) {
        moveDodgerRight();
        stop;
      }
-     
    }
 
 function moveDodgerLeft() {
