@@ -160,14 +160,16 @@
       
        var pos = e.which;
        if(pos === LEFT_ARROW){
+         e.preventDefault();
          moveDodgerLeft();
          
        } else
        if (pos === RIGHT_ARROW){
+         e.preventDefault();
          moveDodgerRight();
          
        } else{
-         e.preventDefault();
+         null;
        }
        e.stopPropagation();
      }
